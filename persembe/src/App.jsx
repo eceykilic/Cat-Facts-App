@@ -13,10 +13,12 @@ const App = () => {
 
   useEffect(() => {
     dispatch(fetchCatFact());
-  }, [dispatch]);
+  }, [dispatch]); 
+  // Komponent monte edildiğinde, 
+  //fetchCatFact action'ı çağrılarak bir kedi gerçeği çekiliyor.
 
   const handleAddToFavorites = () => {
-    dispatch(addToFavorites(catFact));
+    dispatch(addToFavorites(catFact)); //aksiyon çağırılır ve kedi gerçeği fav
     toast.success('Favorilere eklendi!');
     dispatch(fetchCatFact()); //yeni bir fact gelsin
   };
@@ -27,7 +29,7 @@ const App = () => {
   };
 
   const handleNextCatFact = () => {
-    dispatch(fetchCatFact());
+    dispatch(fetchCatFact()); //yeni fact çağırılır
   };
 
   return (
