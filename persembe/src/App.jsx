@@ -19,13 +19,13 @@ const App = () => {
 
   const handleAddToFavorites = () => {
     dispatch(addToFavorites(catFact)); //aksiyon çağırılır ve kedi gerçeği fav
-    toast.success('Favorilere eklendi!');
+    toast.success('Added to favorites!');
     dispatch(fetchCatFact()); //yeni bir fact gelsin
   };
 
   const handleRemoveFromFavorites = (fact) => {
     dispatch(removeFromFavorites(fact));
-    toast.error('Favorilerden kaldırıldı!');
+    toast.error('Removed from favorites!');
   };
 
   const handleNextCatFact = () => {
