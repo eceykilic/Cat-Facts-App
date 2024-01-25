@@ -55,7 +55,7 @@ const App = () => {
         ))}
       </ul>
       
-      <ToastContainer />
+      <ToastContainer className="uyari" />
     </main>
     <footer>
 
