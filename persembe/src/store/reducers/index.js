@@ -2,7 +2,7 @@ import { FETCH_CAT_FACT, ADD_TO_FAVORITES, REMOVE_FROM_FAVORITES } from '../acti
 
 const initialState = {
   catFact: '',
-  favorites: [],  // Move favorites directly under the root level
+  favorites: [], 
 };
 
 const catReducer = (state = initialState, action) => {

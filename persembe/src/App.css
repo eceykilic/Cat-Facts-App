@@ -73,3 +73,13 @@
   font-family: 'Silkscreen', sans-serif;
   color: #9dfdc7;
 }
+
+.kaldirma-btn {
+  background-color: #61d2b4;
+  color: #152744;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0.2rem;
+  margin-left: 0.5rem;
+}

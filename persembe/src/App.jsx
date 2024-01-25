@@ -48,7 +48,7 @@ const App = () => {
         {favorites.map((fact, index) => (
           <li key={index}>
             {fact}
-            <button onClick={() => handleRemoveFromFavorites(fact)}>Remove</button>
+            <button className="kaldirma-btn" onClick={() => handleRemoveFromFavorites(fact)}>Remove</button>
           </li>
         ))}
       </ul>
