@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Silkscreen&display=swap');
+
+* {
+  background-color: #152744;
+}
+
+.content {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  color:#61d2b4;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.title {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 2.5rem;
+  color: #9dfdc7;
+}
+
+.app-name {
+  text-align: center;
+}
+.aciklama {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color:#367591;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cat-war {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.fact {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.favoriler {
+  text-align: center;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #61d2b4;
+  color: #152744;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.btn:hover {
+  color: #61d2b4;
+  background-color: #152744;
+}
+
+.favoriler {
+  font-family: 'Silkscreen', sans-serif;
+  color: #9dfdc7;
+}
