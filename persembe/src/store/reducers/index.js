@@ -5,6 +5,8 @@ const initialState = {
   favorites: [], 
 };
 
+//factler strirng, favorilerim array olacak.
+
 const catReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_CAT_FACT:

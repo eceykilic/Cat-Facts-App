@@ -6,6 +6,12 @@ import catReducer from './reducers/index';
 // Redux Thunk middleware'i applyMiddleware fonksiyonu ile ekliyoruz
 const store = createStore(catReducer, applyMiddleware(thunk));
 
+/* Dokümantasyona göre:
+https://redux.js.org/api/applymiddleware
+applyMiddleware supercharges createStore with middleware:
+const store = createStore(reducer, applyMiddleware(thunk))
+*/
+
 export { store };
 
 /*-neden thunk?
